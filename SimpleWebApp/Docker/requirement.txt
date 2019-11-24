@@ -1,0 +1,21 @@
+To run simple Python rest api using Flask we follow below instructions.
+
+
+1. download and run ubuntu latest image.
+	docker run -d ubuntu
+	
+2. get the latest package.
+	apt-get update
+	
+3. install latest python.
+	apt-get install -y python python-pip
+	
+4. install flask.
+	pip install flask
+
+5. create app.py simple rest api using flask.
+6. copy app.py into /opt folder
+	cp app.py /opt/
+	
+7. run the flask application.
+	FLASK_APP=/opt/app.py flask run --host=0.0.0.0
